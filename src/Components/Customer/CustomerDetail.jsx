@@ -15,7 +15,7 @@ function CustomerDetail() {
 
     // Fetch customers from backend
     useEffect(() => {
-        axios.get('http://localhost:3001/customerdetail')
+        axios.get('https://backend-1mjy.onrender.com/customerdetail')
             .then(response => {
                 setCustomers(response.data);
                 setFilteredCustomers(response.data); // Initially set filtered data to all customers

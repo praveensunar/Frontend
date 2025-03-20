@@ -14,7 +14,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/', { email, password })
+        axios.post('https://backend-1mjy.onrender.com/', { email, password })
         .then(result => {
             console.log(result.data);
             if (result.data.message === "success") {

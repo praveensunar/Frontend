@@ -75,13 +75,13 @@ function Login() {
                 </form>
 
                 {/* Signup Redirect */}
-                {/* <p className="text-center text-gray-600 mt-4">Don't have an account?</p>
+                <p className="text-center text-gray-600 mt-4">Don't have an account?</p>
                 <Link 
                     to="/register" 
                     className="block bg-blue-600/60 w-full h-12 rounded-2xl text-xl font-medium text-white text-center leading-[3rem] hover:bg-blue-400 hover:scale-105 transition"
                 >
                     Sign Up
-                </Link> */}
+                </Link>
             </div>
         </div>
     );

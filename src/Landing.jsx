@@ -15,7 +15,7 @@ function Landing() {
 
       {/* Content Overlay (Optional) */}
       <div className="absolute inset-0 flex justify-center items-center bg-black/40">
-        <h1 className="text-cyan-300/50 text-3xl md:text-5xl font-bold">Welcome to Our Website</h1>
+        <h1 className="text-cyan-300/50 text-3xl md:text-5xl font-bold">Welcome to Our Website gold loan</h1>
       </div>
     </div>
   );
